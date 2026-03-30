@@ -1,0 +1,16 @@
+omsf-eco-infra/ami-builder:
+  - janitor.yaml
+  - ami-pipeline.yaml
+omsf-eco-infra/ticgithub:
+  - tests.yaml
+omsf/gha-runner:
+  - ci.yaml
+omsf/playbooks-website:
+  - nightly.yaml
+omsf/static-site-tools:
+  - example-astro-build-pr.yaml
+  - example-astro-build-push.yaml
+  - example-hugo-build-pr.yaml
+  - example-hugo-build-push.yaml
+  - example-astro-cleanup-cloudflare.yaml
+  - example-hugo-cleanup-cloudflare.yaml
